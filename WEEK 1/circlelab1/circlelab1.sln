@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2024
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "circlelab1", "circlelab1\circlelab1.csproj", "{26935C23-1D10-4D17-A1A3-E8DF15232542}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26935C23-1D10-4D17-A1A3-E8DF15232542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26935C23-1D10-4D17-A1A3-E8DF15232542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26935C23-1D10-4D17-A1A3-E8DF15232542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26935C23-1D10-4D17-A1A3-E8DF15232542}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {22F58E9B-6DCA-47A1-9EE3-B47224EDEEEB}
+	EndGlobalSection
+EndGlobal

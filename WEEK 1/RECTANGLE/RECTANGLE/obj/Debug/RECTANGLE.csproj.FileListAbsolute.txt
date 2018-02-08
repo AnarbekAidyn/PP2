@@ -1,0 +1,7 @@
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\bin\Debug\RECTANGLE.exe.config
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\bin\Debug\RECTANGLE.exe
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\bin\Debug\RECTANGLE.pdb
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\obj\Debug\RECTANGLE.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\obj\Debug\RECTANGLE.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\obj\Debug\RECTANGLE.exe
+C:\Users\asus\Desktop\PP II\WEEK 1\RECTANGLE\RECTANGLE\obj\Debug\RECTANGLE.pdb
