@@ -10,30 +10,24 @@ namespace Prime1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your number: ");
-            int number = int.Parse(Console.ReadLine());
-           
-
-            int j;
+            Console.WriteLine("Enter the number: ");
+            int n = int.Parse(Console.ReadLine());
             bool ok = false;
 
-            for(int i=2; i<=number; i++)
+            for (int i = 2; i <= n; i++)
             {
-                for(j=2; j<i; j++)
+                for(int j = 2; j<i; j++)
                 {
                     if (i % j == 0)
                     {
                         ok = true;
                     }
-                    
-                    
+                    if (ok == false)
+                    {
+                        Cnsole.WriteLine(i);
+                    }
+                    else ok = false;
                 }
-                if (ok == false)
-                {
-                    Console.WriteLine(j);
-                }
-
-                else ok = false;
             }
 
 

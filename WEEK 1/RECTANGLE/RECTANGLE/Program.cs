@@ -15,7 +15,7 @@ namespace RECTANGLE
             this.height = b;
             this.width = a;
             double pmeter = a + a + b + b;
-            Console.WriteLine("perometer of this rectangle is " + pmeter);
+            Console.WriteLine("Perimeter of this rectangle is " + pmeter);
 
         }
 

@@ -9,24 +9,42 @@ namespace tasks
 {
     class Program
     {
+        static bool IsPrime(int n)
+        {
+            if (n == 1)
+            {
+                return false;
+            }
+            for(int i=2; i*i<=n; i++)
+            {
+                if (n % i == 0)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
+
         static void Main(string[] args)
         {
             StreamReader sr = new StreamReader(@"C:\Users\asus\Desktop\PP II\INPUT.txt");
             string s = sr.ReadLine();
-            string[]  arr= s.Split(' ');
+            string[] arr = s.Split(' ');
 
-            List<int> list = new List<int>();
+            
 
             foreach(var num in arr)
             {
                 int a = int.Parse(num);
-                list.Add(a);
+                if (IsPrime(a))
+                {
+                    Console.WriteLine(a);
+                }
             }
 
-            int max = list.Max();
-            Console.WriteLine(max);
-            Console.ReadKey();
+          
 
+            Console.ReadKey();
         }
     }
 }

@@ -1,0 +1,31 @@
+слой graphics
+event paint 
+ссылка на слой 
+paint event args e - переменная
+bitmap
+Pen -> линия
+brush -> заливка
+
+Pen pen - new Pen(Color.Red, 3);
+e.GraphicsDrawLine(pen);
+
+перезапускается paint -> k++; counter
+
+e.Grapphics.DrawEllipse()
+e.Grapphics.Rectangle()
+e.Grapphics.DrawLine()
+e.Grapphics.DrawPie() -> пирог
+e.Grapphics.DrawArc() -> arc
+
+SolidBrush
+
+e.Grapphics.FillRectangle() -> заливка с SolidBrush();
+
+GraphicsPath -> несколько объектов рисует сразу
+ using system ...
+
+Color.FromName -> 
+
+BItMap -> uhepbnm rfhnbyre
+
+Color.FromArgb(0-255,0-255,0-255)
